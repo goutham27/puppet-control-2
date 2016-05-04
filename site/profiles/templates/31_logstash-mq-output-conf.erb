@@ -19,6 +19,7 @@
 output {
   rabbitmq {
     exchange => "logstash"
+    queue => "log-item"
     host => "<%= @rabbit_address %>"
     exchange_type => "direct"
     key => "logstash-key"
