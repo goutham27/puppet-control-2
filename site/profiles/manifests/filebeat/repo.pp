@@ -10,12 +10,12 @@
 # ===========================
 #
 class filebeat::repo (
-  $package_name  = $filebeat::params::package_name
+  $package_name       = $filebeat::params::package_name
   ) inherits filebeat::params {
 
   $arch               = $::architecture
 
-  notify { "## --->>> Creating repo for: ${::osfamily}": }
+  notify { "## --->>> Creating repo for: ${package_name}": }
 
   case $::osfamily {
     'RedHat': {

@@ -23,6 +23,9 @@ class filebeat::config (
 
   notify { "## --->>> Creating config files for: ${package_name}": }
 
+  $filebeat_cert      = "$ssl_dir/$ssl_cert"
+  $filebeat_key       = "$ssl_dir/$ssl_key"
+
   file { $config_dir: 
     ensure            => directory,
     owner             => $user,

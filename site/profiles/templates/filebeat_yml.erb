@@ -50,8 +50,8 @@ output:
     hosts: ["<%= @log_reveiver %>:5044"]
 
     tls:
-      certificate: "<%= @ssl_cert %>"
-      certificate_key: "<%= @ssl_key %>"
+      certificate: "<%= @filebeat_cert %>"
+      certificate_key: "<%= @filebeat_key %>"
 
     index: filebeat
 
