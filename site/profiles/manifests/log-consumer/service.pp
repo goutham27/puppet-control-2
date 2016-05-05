@@ -23,7 +23,7 @@ class log-consumer::service (
     owner             => 'root',
     group             => 'root',
     mode              => '0644',
-    content           => template('log-consumer/service.erb'),
+    content           => template("${service}.erb"),
     notify            => Service[$service]
   }
 
