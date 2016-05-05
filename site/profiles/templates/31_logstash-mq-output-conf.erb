@@ -11,9 +11,10 @@
 # ----------------------------------------
 #
 #
-# Logstash Output into MQ config File <%= @config_input %>
-#
-# This config file lives in <%= @config_dir %>
+# Logstash - log-receiver
+#   -  Output into RabbitMQ
+#   -  this config File <%= @configfile %>
+#   -  this config file lives in <%= @config_dir %>
 #
 #
 output {
@@ -30,7 +31,6 @@ output {
     ssl => true
     port => 5671
     verify_ssl => false
-    ssl => true
     ssl_certificate => "<%= @rabbitmq_cert %>"
     ssl_key => "<%= @rabbitmq_key %>"
   }

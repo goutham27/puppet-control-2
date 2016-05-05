@@ -1,5 +1,5 @@
 # == Class log-consumer::params
-# ===========================
+# =============================
 #
 #
 # Description of the Class:

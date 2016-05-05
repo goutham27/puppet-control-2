@@ -1,6 +1,6 @@
 #  ______________________________________
-# / NOTE: this file is managed by puppet \
-# \ -do not change it here, ever!        /
+# / NOTE: this file is managed by Puppet \
+# \ - do not change it here, ever!       /
 #  --------------------------------------
 #         \   ^__^
 #          \  (OO)\_______
@@ -11,9 +11,10 @@
 # ----------------------------------------
 #
 #
-# Lgstash Input from beats config File <%= @configfile %>
-#
-# This config file lives in <%= @config_dir %>
+# Logstash - log-receiver input
+#   -  receiving log messages from beats
+#   -  config File <%= @configfile %>
+#   -  this config file lives in <%= @config_dir %>
 #
 #
 input {
