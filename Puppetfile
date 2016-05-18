@@ -40,6 +40,8 @@ mod 'puppet-files',                    :git => 'https://github.com/LandRegistry-
                                        :ref => '3d3cbee15a91abf160275abe7d2961cf89beba77'
 mod 'puppet-filebeat',                 :git => 'https://github.com/LandRegistry-Ops/puppet-filebeat.git',
                                        :ref => '7c1a02397ad226f51d49b6ab5f6ebd43bf9bb1fa'
+mod 'puppet-logreceiver',              :git => 'https://github.com/LandRegistry-Ops/puppet-logreceiver.git',
+                                       :ref => 'c3d740f4d80425ebb6bd65dbd6b2b7e8300085e8'
 
 # Dependency modules
 mod 'ceritsc/yum',                     '0.9.6'
