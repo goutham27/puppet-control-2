@@ -4,6 +4,7 @@
 
 :yaml:
   :datadir: /vagrant/hiera/roles
+
 :hierarchy:
   - vagrant
   - vagrant_%{::vagrant}
