@@ -37,14 +37,10 @@ mod 'puppet-dnsserver',                :git => 'https://github.com/LandRegistry-
                                        :ref => '8e4f08779649c5ddcf8225103009824485992ea2'
 mod 'puppet-files',                    :git => 'https://github.com/LandRegistry-Ops/puppet-files.git',
                                        :ref => '3d3cbee15a91abf160275abe7d2961cf89beba77'
-mod 'puppet-filebeat',                 :git => 'https://github.com/LandRegistry-Ops/puppet-filebeat.git',
-                                       :ref => 'c27c21c986e29b823db8d79033463fb1b5e4dc13'
-mod 'puppet-logreceiver',              :git => 'https://github.com/LandRegistry-Ops/puppet-logreceiver.git',
-                                       :ref => '496136ce8d98cbd8693f99f6a9b9e40df42b9fd5'
-mod 'puppet-logconsumer',              :git => 'https://github.com/LandRegistry-Ops/puppet-logconsumer.git',
-                                       :ref => 'f70318314b52c98f2e832d707fb1b32cbc238744'
-mod 'puppet-rabbitmq',                 :git => 'https://github.com/LandRegistry-Ops/puppet-rabbitmq.git',
-                                       :ref => '456e10fb4cb732754167d2ef012ec005549d4aa4'
+mod 'puppet-filebeat',                 :git => 'https://github.com/LandRegistry-Ops/puppet-filebeat.git'
+mod 'puppet-logreceiver',              :git => 'https://github.com/LandRegistry-Ops/puppet-logreceiver.git'
+mod 'puppet-logconsumer',              :git => 'https://github.com/LandRegistry-Ops/puppet-logconsumer.git'
+mod 'puppet-rabbitmq',                 :git => 'https://github.com/LandRegistry-Ops/puppet-rabbitmq.git'
 
 # Dependency modules
 mod 'ceritsc/yum',                     '0.9.6'
