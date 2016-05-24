@@ -6,6 +6,7 @@ mod 'alphagov/account',                :git => 'https://github.com/alphagov/pupp
                                        :ref => '8bc0e9981174fd175d630dd98538334a2814065b'
 mod 'elasticsearch/elasticsearch',     '0.11.0'
 mod 'richardc/datacat',                '0.6.2'
+mod 'puppetlabs/java_ks',              '1.4.1'
 mod 'lesaux/kibana4',                  '1.0.15'
 mod 'evenup/redis',                    '1.3.1'
 mod 'ispavailability/file_concat',     '0.2.1'
