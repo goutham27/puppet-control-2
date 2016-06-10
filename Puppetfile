@@ -37,7 +37,7 @@ mod '3fs/phantomjs',                   '0.0.8'
 mod 'camptocamp/archive',              '0.8.1'
 mod 'thias/resolvconf',                '0.0.3'
 mod 'puppet-dnsserver',                :git => 'https://github.com/LandRegistry-Ops/puppet-dnsserver.git',
-                                       :ref => '8e4f08779649c5ddcf8225103009824485992ea2'
+                                       :ref => '14f7a919e0bff38e6e0c9267b521bfd18cfff0de'
 mod 'puppet-files',                    :git => 'https://github.com/LandRegistry-Ops/puppet-files.git',
                                        :ref => '3d3cbee15a91abf160275abe7d2961cf89beba77'
 mod 'puppet-filebeat',                 :git => 'https://github.com/LandRegistry-Ops/puppet-filebeat.git'
@@ -67,4 +67,4 @@ mod 'puppetlabs/stdlib',               '4.9.0'
 mod 'puppetlabs/vcsrepo',              '1.3.0'
 mod 'stahnma/epel',                    '1.0.2'
 mod 'ajjahn/dns',                      :git => 'https://github.com/ajjahn/puppet-dns.git',
-                                       :ref => 'c545493603f1a1352db73f49346f9e253d7599aa'
+                                       :ref => '70a5129aff335aa82b6581d5e293fa8cc62eef79'
