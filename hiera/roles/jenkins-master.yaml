@@ -68,6 +68,16 @@ profiles::jenkins::plugins:
     version: 2.2.2
   text-finder:
     version: 1.10
+  workflow-step-api:
+    version: 2.0
+  structs:
+    version: 1.1
+  gitlab-plugin:
+    version: 1.2.2
+  gitlab-hook:
+    version: 1.4.2
+  gitlab-merge-request-jenkins:
+    version: 1.2.4
 
 
 profiles::jenkins::jenkins_ssl: true

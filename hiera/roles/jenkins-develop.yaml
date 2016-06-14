@@ -66,6 +66,8 @@ profiles::jenkins::plugins:
     version: 1.2.2
   gitlab-hook:
     version: 1.4.2
+  gitlab-merge-request-jenkins:
+    version: 1.2.4
 
 profiles::jenkins::jobs:
   sample-build-and-ut:
