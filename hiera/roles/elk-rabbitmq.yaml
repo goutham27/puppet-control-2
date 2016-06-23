@@ -1,0 +1,10 @@
+---
+
+# This role is to set up the elk rabbitmq server(s)
+
+  classes:
+    - 'rabbit'
+
+
+# vim: set ts=2 sw=2 et :
+    

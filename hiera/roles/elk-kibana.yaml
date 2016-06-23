@@ -1,0 +1,10 @@
+---
+
+# This role is to set up the elk kibana server(s)
+
+  classes:
+    - 'kibana'
+
+
+# vim: set ts=2 sw=2 et :
+    

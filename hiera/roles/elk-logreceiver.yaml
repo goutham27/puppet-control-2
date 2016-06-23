@@ -1,0 +1,10 @@
+---
+
+# This role is to set up the elk log receiver server(s)
+
+  classes:
+    - 'logreceiver'
+
+
+# vim: set ts=2 sw=2 et :
+    

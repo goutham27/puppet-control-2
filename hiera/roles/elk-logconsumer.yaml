@@ -1,0 +1,10 @@
+---
+
+# This role is to set up the elk log consumer server(s)
+
+  classes:
+    - 'logconsumer'
+
+
+# vim: set ts=2 sw=2 et :
+    
