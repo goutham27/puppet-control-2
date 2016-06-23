@@ -1,6 +1,6 @@
 ---
 
-# This role is to set up the elk rabbitmq server(s)
+# The role for all ELK stack rabbitmq servers
 
   classes:
     - 'rabbit'

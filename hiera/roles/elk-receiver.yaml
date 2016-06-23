@@ -1,0 +1,12 @@
+---
+
+# The role configuration for all ELK stack log-receiver servers
+# -------------------------------------------------------------
+
+
+  classes:
+    - 'logreceiver'
+
+
+# vim: set ts=2 sw=2 et :
+    

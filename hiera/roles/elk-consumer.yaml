@@ -1,6 +1,6 @@
 ---
 
-# This role is to set up the elk log consumer server(s)
+# The role for all ELK stack log-consumer servers
 
   classes:
     - 'logconsumer'

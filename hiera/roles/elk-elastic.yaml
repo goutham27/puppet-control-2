@@ -1,6 +1,6 @@
 ---
 
-# This role is to set up the elk elastic search server(s)
+# The role for all ELK stack elastic servers
 
   classes:
     - 'elastic'
