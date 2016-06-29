@@ -10,7 +10,7 @@ mod 'puppetlabs/java_ks',              '1.4.1'
 mod 'lesaux/kibana4',                  '1.0.15'
 mod 'evenup/redis',                    '1.3.1'
 mod 'ispavailability/file_concat',     '0.2.1'
-mod 'jfryman/nginx',                   '0.2.7'
+mod 'jfryman/nginx',                   '0.3.0'
 mod 'jfryman/selinux',                 '0.4.0'
 mod 'pcfens/ca_cert',                  '1.2.0'
 mod 'puppet-gradle',                   :git => 'https://github.com/LandRegistry-Ops/puppet-gradle.git',
